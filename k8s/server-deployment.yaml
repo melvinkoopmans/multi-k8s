@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: server-deployment
 spec:
-  replicas: 3
+  replicas: 8
   selector: 
     matchLabels:
       component: server
