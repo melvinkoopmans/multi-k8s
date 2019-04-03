@@ -13,9 +13,9 @@ docker build \
     -t melvinkoopmans/multi-docker-worker:$GIT_SHA \
     -f ./worker/Dockerfile ./worker
 
-docker push melvinkoopmans/multi-docker-client:lastest
-docker push melvinkoopmans/multi-docker-server:lastest
-docker push melvinkoopmans/multi-docker-worker:lastest
+docker push melvinkoopmans/multi-docker-client:latest
+docker push melvinkoopmans/multi-docker-server:latest
+docker push melvinkoopmans/multi-docker-worker:latest
 
 docker push melvinkoopmans/multi-docker-client:$GIT_SHA
 docker push melvinkoopmans/multi-docker-server:$GIT_SHA
